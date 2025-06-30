@@ -2,7 +2,7 @@
 cask "kommit" do
   desc ""
   homepage "https://github.com/madflow/kommit"
-  version "0.4.3"
+  version "0.4.4"
 
   livecheck do
     skip "Auto-generated on release."
@@ -12,23 +12,23 @@ cask "kommit" do
 
   on_macos do
     on_intel do
-      url "https://github.com/madflow/kommit/releases/download/v0.4.3/kommit_Darwin_x86_64.tar.gz"
-      sha256 "0024dab797bad37d72561bf2dcbcec2589cea8895cde0872b8dc5143eba78c8e"
+      url "https://github.com/madflow/kommit/releases/download/v0.4.4/kommit_Darwin_x86_64.tar.gz"
+      sha256 "84610495da75a1104a658bf3704e4b9e088294093b5a88eb4f63a60ab6a97e84"
     end
     on_arm do
-      url "https://github.com/madflow/kommit/releases/download/v0.4.3/kommit_Darwin_arm64.tar.gz"
-      sha256 "1a4ee163723859175709db2263e24aae2d7bf465c58272e789cfc58c827c1617"
+      url "https://github.com/madflow/kommit/releases/download/v0.4.4/kommit_Darwin_arm64.tar.gz"
+      sha256 "9becfa2521104b75a0eaf14a632ec69ae934519692e4bdf7e945df52053ec366"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/madflow/kommit/releases/download/v0.4.3/kommit_Linux_x86_64.tar.gz"
-      sha256 "08a4b400ee365417c3e28cfd3a4140ef927528632bd8c0c9eb55f003719f06a0"
+      url "https://github.com/madflow/kommit/releases/download/v0.4.4/kommit_Linux_x86_64.tar.gz"
+      sha256 "fa51a55e7d9f7810c00ec2df9f186d0e0a03eee121cd069c3c08f69820523d93"
     end
     on_arm do
-      url "https://github.com/madflow/kommit/releases/download/v0.4.3/kommit_Linux_arm64.tar.gz"
-      sha256 "add856abe6b41eaba027e391a149614ed3fb142f270e68b9b37b2281a7b2ed67"
+      url "https://github.com/madflow/kommit/releases/download/v0.4.4/kommit_Linux_arm64.tar.gz"
+      sha256 "f9137ace2160c23c3346babd7c0445b333d2c9c644fe38f32bdd463f53286caa"
     end
   end
 
